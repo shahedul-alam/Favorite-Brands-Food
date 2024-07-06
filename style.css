@@ -75,6 +75,133 @@
   cursor: pointer;
 }
 
+.cards-container {
+  width: 1320px;
+  height: 876px;
+  margin: 167px auto 179px;
+}
+
+.cards-header {
+  width: 691px;
+  height: 173px;
+  margin: 0 auto;
+}
+
+.cards-header>p {
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-align: center;
+  opacity: 0.6;
+  margin-bottom: 16px;
+}
+
+.cards-header>h2 {
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 64px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.cards {
+  height: 525px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 48px;
+}
+
+.card {
+  width: 424px;
+  height: 525px;
+}
+
+.card-img-1 {
+  width: 100%;
+  height: 283px;
+  background: url(./assets/pizza.png);
+  background-size: cover;
+  background-repeat: none;
+}
+
+.card-img-2 {
+  width: 100%;
+  height: 283px;
+  background: url(./assets/biriyani.png);
+  background-size: cover;
+  background-repeat: none;
+}
+
+.card-img-3 {
+  width: 100%;
+  height: 283px;
+  background: url(./assets/burger.png);
+  background-size: cover;
+  background-repeat: none;
+}
+
+.card-info>p {
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-top: 24px;
+}
+
+.card-info>.title {
+  width: 187px;
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-align: center;
+  border-radius: 8px;
+  background: rgba(82, 195, 3, 0.15);
+  padding: 14px 32px 14px 32px;
+  margin: 0 auto;
+  margin-top: 32px;
+}
+
+.card-info>h2 {
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 47px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin: 24px 0;
+}
+
+.btn-conrainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 64px;
+}
+
+.btn-conrainer>button {
+  color: rgb(255, 255, 255);
+  font-family: Work Sans;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: center;
+  border: none;
+  border-radius: 8px;
+  background: rgb(82, 195, 3);
+  padding: 21px 32px 21px 32px;
+}
 
 
 
